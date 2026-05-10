@@ -13,7 +13,7 @@ export default function IntroScreen() {
         duration: 1.5,
       }}
 
-      className="fixed inset-0 bg-black z-[9999] flex items-center justify-center overflow-hidden"
+      className="fixed inset-0 bg-black z-[9999] flex items-center justify-center overflow-hidden pointer-events-none"
     >
 
       {/* Glow */}
