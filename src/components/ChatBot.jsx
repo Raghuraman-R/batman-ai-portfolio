@@ -35,7 +35,7 @@ export default function ChatBot({ open, setOpen }) {
       lower.includes('technology')
     ) {
       botReply =
-        'Raghu works with React, Python, AI/ML, UI/UX, OpenCV, Tailwind CSS, and Generative AI.'
+        'Raghu works with Python , HTML , CSS , Java Script , Java and C Programming.'
     }
 
     else if (

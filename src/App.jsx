@@ -7,12 +7,19 @@ import GlobalEffects from './components/GlobalEffects'
 import AboutSection from './sections/AboutSection'
 import EducationSection from './sections/EducationSection'
 import ContactSection from './sections/ContactSection'
+import IntroScreen from './components/IntroScreen'
 
-function App( ) {
+function App() {
   const [openChat, setOpenChat] = useState(false)
+
   return (
+
     <div className="bg-black text-white relative overflow-hidden">
-    <ChatBot open={openChat} setOpen={setOpenChat} />
+
+      <ChatBot open={openChat} setOpen={setOpenChat} />
+
+      <IntroScreen />
+
       {/* BACKGROUND EFFECTS */}
       <GlobalEffects />
 
@@ -20,12 +27,17 @@ function App( ) {
       <div className="relative z-20">
 
         <Hero setOpenChat={setOpenChat} />
+
         <AboutSection />
+
         <EducationSection />
-      <TerminalSection />
-     <ProjectsSection />
-     <ContactSection />
-     
+
+        <TerminalSection />
+
+        <ProjectsSection />
+
+        <ContactSection />
+
       </div>
 
     </div>
