@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion'
 import gotham from '../assets/gotham.png'
 
 export default function ProjectsSection() {
@@ -26,7 +27,7 @@ export default function ProjectsSection() {
         <div className="overflow-hidden rounded-3xl border border-yellow-500/20 shadow-[0_0_40px_rgba(250,204,21,0.1)]">
 
           <img
-            src={gotham}
+            src="https://images.unsplash.com/photo-1635805737707-575885ab0820?q=80&w=1200&auto=format&fit=crop"
             alt=""
             className="w-full h-full object-cover hover:scale-110 transition-all duration-700"
           />
@@ -151,7 +152,7 @@ export default function ProjectsSection() {
   <div className="overflow-hidden rounded-3xl border border-yellow-500/20 shadow-[0_0_40px_rgba(250,204,21,0.1)]">
 
     <img
-      src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop"
+      src={gotham}
       alt=""
       className="w-full h-full object-cover hover:scale-110 transition-all duration-700"
     />
