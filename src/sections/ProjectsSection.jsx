@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion'
+import gotham from '../assets/gotham.png'
 
 export default function ProjectsSection() {
   return (
@@ -26,7 +26,7 @@ export default function ProjectsSection() {
         <div className="overflow-hidden rounded-3xl border border-yellow-500/20 shadow-[0_0_40px_rgba(250,204,21,0.1)]">
 
           <img
-            src="https://images.unsplash.com/photo-1635805737707-575885ab0820?q=80&w=1200&auto=format&fit=crop"
+            src={gotham}
             alt=""
             className="w-full h-full object-cover hover:scale-110 transition-all duration-700"
           />
@@ -37,7 +37,7 @@ export default function ProjectsSection() {
         <div>
 
           <p className="text-yellow-400 mb-4">
-            AI PROJECT 01
+            PROJECT 01
           </p>
 
           <h2 className="text-4xl md:text-6xl font-bold mb-8">
@@ -88,7 +88,7 @@ export default function ProjectsSection() {
         <div>
 
           <p className="text-yellow-400 mb-4">
-            AI PROJECT 02
+             PROJECT 02
           </p>
 
           <h2 className="text-4xl md:text-6xl font-bold mb-8">
@@ -162,7 +162,7 @@ export default function ProjectsSection() {
   <div>
 
     <p className="text-yellow-400 mb-4">
-      AI PROJECT 03
+     PROJECT 03
     </p>
 
     <h2 className="text-4xl md:text-6xl font-bold mb-8">
