@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import gotham from '../assets/gotham.png'
+import metavisualizer from '../assets/metavisualizer.png'
 
 export default function ProjectsSection() {
   return (
@@ -22,24 +23,16 @@ export default function ProjectsSection() {
         transition={{ duration: 1 }}
         className="grid md:grid-cols-2 gap-16 items-center max-w-7xl mx-auto mb-40"
       >
-
-        {/* IMAGE */}
         <div className="overflow-hidden rounded-3xl border border-yellow-500/20 shadow-[0_0_40px_rgba(250,204,21,0.1)]">
-
           <img
             src="https://images.unsplash.com/photo-1635805737707-575885ab0820?q=80&w=1200&auto=format&fit=crop"
             alt=""
             className="w-full h-full object-cover hover:scale-110 transition-all duration-700"
           />
-
         </div>
 
-        {/* CONTENT */}
         <div>
-
-          <p className="text-yellow-400 mb-4">
-            PROJECT 01
-          </p>
+          <p className="text-yellow-400 mb-4">PROJECT 01</p>
 
           <h2 className="text-4xl md:text-6xl font-bold mb-8">
             Spider-Man Logo Generator
@@ -52,7 +45,6 @@ export default function ProjectsSection() {
           </p>
 
           <div className="flex gap-4 flex-wrap">
-
             <a
               href="https://spiderman-project-ten.vercel.app/"
               target="_blank"
@@ -70,11 +62,8 @@ export default function ProjectsSection() {
             >
               GitHub
             </a>
-
           </div>
-
         </div>
-
       </motion.div>
 
       {/* MOVIE PROJECT */}
@@ -82,15 +71,10 @@ export default function ProjectsSection() {
         initial={{ opacity: 0, x: 100 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1 }}
-        className="grid md:grid-cols-2 gap-16 items-center max-w-7xl mx-auto"
+        className="grid md:grid-cols-2 gap-16 items-center max-w-7xl mx-auto mb-40"
       >
-
-        {/* CONTENT */}
         <div>
-
-          <p className="text-yellow-400 mb-4">
-             PROJECT 02
-          </p>
+          <p className="text-yellow-400 mb-4">PROJECT 02</p>
 
           <h2 className="text-4xl md:text-6xl font-bold mb-8">
             Movie Recommendation System
@@ -98,12 +82,10 @@ export default function ProjectsSection() {
 
           <p className="text-gray-400 text-lg leading-8 mb-8">
             Intelligent recommendation platform that suggests
-            movies using AI-based filtering and cinematic UI
-            interaction for users.
+            movies using AI-based filtering and cinematic UI interaction.
           </p>
 
           <div className="flex gap-4 flex-wrap">
-
             <a
               href="https://movie-recommendation-system-8ebh9ht6eebhspzgzcnbpt.streamlit.app/"
               target="_blank"
@@ -121,86 +103,117 @@ export default function ProjectsSection() {
             >
               GitHub
             </a>
-
           </div>
-
         </div>
 
-        {/* IMAGE */}
         <div className="overflow-hidden rounded-3xl border border-yellow-500/20 shadow-[0_0_40px_rgba(250,204,21,0.1)]">
-
           <img
             src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1200&auto=format&fit=crop"
             alt=""
             className="w-full h-full object-cover hover:scale-110 transition-all duration-700"
           />
-
         </div>
-
-    
       </motion.div>
 
-      {/* BATMAN AI PORTFOLIO */}
-<motion.div
-  initial={{ opacity: 0, x: -100 }}
-  whileInView={{ opacity: 1, x: 0 }}
-  transition={{ duration: 1 }}
-  className="grid md:grid-cols-2 gap-16 items-center max-w-7xl mx-auto mt-40"
->
-
-  {/* IMAGE */}
-  <div className="overflow-hidden rounded-3xl border border-yellow-500/20 shadow-[0_0_40px_rgba(250,204,21,0.1)]">
-
-    <img
-      src={gotham}
-      alt=""
-      className="w-full h-full object-cover hover:scale-110 transition-all duration-700"
-    />
-
-  </div>
-
-  {/* CONTENT */}
-  <div>
-
-    <p className="text-yellow-400 mb-4">
-     PROJECT 03
-    </p>
-
-    <h2 className="text-4xl md:text-6xl font-bold mb-8">
-      Batman AI Portfolio
-    </h2>
-
-    <p className="text-gray-400 text-lg leading-8 mb-8">
-      A cinematic Gotham-inspired AI portfolio featuring
-      immersive animations, AI chatbot interaction,
-      lightning effects, rain atmosphere, and futuristic UI design.
-    </p>
-
-    <div className="flex gap-4 flex-wrap">
-
-      <a
-        href="https://batman-ai-portfolio.vercel.app/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="px-8 py-4 rounded-full border border-yellow-500 hover:bg-yellow-500 hover:text-black transition-all duration-300"
+      {/* BATMAN PROJECT */}
+      <motion.div
+        initial={{ opacity: 0, x: -100 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 1 }}
+        className="grid md:grid-cols-2 gap-16 items-center max-w-7xl mx-auto mb-40"
       >
-        Live Demo
-      </a>
+        <div className="overflow-hidden rounded-3xl border border-yellow-500/20 shadow-[0_0_40px_rgba(250,204,21,0.1)]">
+          <img
+            src={gotham}
+            alt=""
+            className="w-full h-full object-cover hover:scale-110 transition-all duration-700"
+          />
+        </div>
 
-      <a
-        href="https://github.com/Raghuraman-R/batman-ai-portfolio"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="px-8 py-4 rounded-full bg-white text-black hover:bg-gray-300 transition-all duration-300"
+        <div>
+          <p className="text-yellow-400 mb-4">PROJECT 03</p>
+
+          <h2 className="text-4xl md:text-6xl font-bold mb-8">
+            Batman AI Portfolio
+          </h2>
+
+          <p className="text-gray-400 text-lg leading-8 mb-8">
+            A cinematic Gotham-inspired AI portfolio featuring
+            immersive animations, AI chatbot interaction,
+            lightning effects and futuristic UI design.
+          </p>
+
+          <div className="flex gap-4 flex-wrap">
+            <a
+              href="https://batman-ai-portfolio.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-4 rounded-full border border-yellow-500 hover:bg-yellow-500 hover:text-black transition-all duration-300"
+            >
+              Live Demo
+            </a>
+
+            <a
+              href="https://github.com/Raghuraman-R/batman-ai-portfolio"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-4 rounded-full bg-white text-black hover:bg-gray-300 transition-all duration-300"
+            >
+              GitHub
+            </a>
+          </div>
+        </div>
+      </motion.div>
+
+      {/* METALEARN PROJECT */}
+      <motion.div
+        initial={{ opacity: 0, x: 100 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 1 }}
+        className="grid md:grid-cols-2 gap-16 items-center max-w-7xl mx-auto"
       >
-        GitHub
-      </a>
+        <div>
+          <p className="text-yellow-400 mb-4">PROJECT 04</p>
 
-    </div>
+          <h2 className="text-4xl md:text-6xl font-bold mb-8">
+            MetaLearn Visualizer
+          </h2>
 
-  </div>
+          <p className="text-gray-400 text-lg leading-8 mb-8">
+            Interactive machine learning visualization platform
+            that enables users to explore ML algorithms and
+            dataset insights through visual representations.
+          </p>
 
-</motion.div>
+          <div className="flex gap-4 flex-wrap">
+            <a
+              href="https://metalearn-visualizer.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-4 rounded-full border border-yellow-500 hover:bg-yellow-500 hover:text-black transition-all duration-300"
+            >
+              Live Demo
+            </a>
+
+            <a
+              href="https://github.com/Raghuraman-R/metalearn-visualizer"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-4 rounded-full bg-white text-black hover:bg-gray-300 transition-all duration-300"
+            >
+              GitHub
+            </a>
+          </div>
+        </div>
+
+        <div className="overflow-hidden rounded-3xl border border-yellow-500/20 shadow-[0_0_40px_rgba(250,204,21,0.1)]">
+          <img
+            src={metavisualizer}
+            alt=""
+            className="w-full h-full object-cover hover:scale-110 transition-all duration-700"
+          />
+        </div>
+      </motion.div>
 
     </section>
   )
